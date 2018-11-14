@@ -1,0 +1,16 @@
+<h2>Lista de Bancos</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Código</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let banco of bancos">
+            <td>{{ banco.nome }}</td>
+            <td>{{ banco.codigo }}</td>
+        </tr>
+    </tbody>
+</table>
